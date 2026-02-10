@@ -29,3 +29,6 @@ def get_factors(num: int, prime: bool = False) -> List[int]:
             if len(get_factors(f, prime=False)) == 2
             ]
     return factors
+
+def fake_function():
+    return "I'm an example!"
